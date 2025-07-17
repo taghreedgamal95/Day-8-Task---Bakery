@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #333 transparent;
+    padding: 30px;
+}
+
+.logo {
+    height: 40px; 
+    width: auto; 
+    margin-right: 20px; 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFD700;
+}
+
+.img {
+    height: 900px;
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+    background-color: white;
+}
+.para {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 24px;
+    color: white;
+    
+}
+.LearnMore {
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(73, 54, 2);
+    width: 100px;
+    height: 50px;
+    color: white;
+}
+.Contactus{
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    width: 100px;
+    height: 50px;
+    color: white;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 200px;
+}
+.item2 {
+    padding: 50px;
+    font-size: 20px;
+}
